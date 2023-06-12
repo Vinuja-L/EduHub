@@ -23,7 +23,7 @@ import MyArticle from '../views/articles/myArticles/myArticles'
 import MyBookMarks from '../views/articles/myBookMarks/myBookMarks'
 import ArticlePage from '../views/ArticlePage'
 import Profile from '../views/Profile'
-import Exams from '../views/exams'
+//import Exams from '../views/exams'
 import { AssessmentCreation, Submissions } from '../views/exams'
 import Lectures from '../views/lectures'
 import Modules from '../views/modules'
@@ -138,7 +138,7 @@ const AuthnticatedApp = () => {
                 <AssessmentCreation {...props} assessmentType="Assignment" />
               )}
             />
-            <CourseRoute path="/app/course/:courseId/exams" component={Exams} />
+            {/*<CourseRoute path="/app/course/:courseId/exams" component={Exams} />*/}
             <CourseRoute
               path="/app/course/:courseId/assignments"
               component={Assignments}
