@@ -95,14 +95,6 @@ const Login = () => {
                 Login
               </Button>
             </Form.Item>
-
-            {/* <Divider plain>Or</Divider>
-
-            <Form.Item>
-              <Button block icon={<GoogleOutlined />}>
-                Sign in with Google
-              </Button>
-            </Form.Item> */}
           </Form>
         </FormWrapper>
       </FormContainer>

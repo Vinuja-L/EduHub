@@ -4,9 +4,9 @@ import Avatar from 'antd/lib/avatar/avatar'
 import { removeComment } from '../../../reducers/discussionReducer'
 import { useDispatch } from 'react-redux'
 import './../styles.css'
-
 const Comment = ({ cmnt, Luser, dId }) => {
-  const dispatch = useDispatch()
+const dispatch = useDispatch()
+
   return (
     <Card
       size="small"
