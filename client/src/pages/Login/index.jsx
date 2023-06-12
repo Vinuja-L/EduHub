@@ -87,7 +87,7 @@ const Login = () => {
               <Form.Item name="remember" valuePropName="checked" noStyle>
                 <Checkbox>Remember me</Checkbox>
               </Form.Item>
-              {/* <Link to="/ForgetPassword">Forget Password</Link> */}
+               <Link to="/ForgetPassword">Forget Password</Link> 
             </FormItemFlex>
 
             <Form.Item>

@@ -192,9 +192,9 @@ const Registeration = () => {
                   I have read the <Link to="#">agreement</Link>
                 </Checkbox>
               </Form.Item>
-              {/* <Form.Item>
+               <Form.Item>
                 <Link to="/ForgetPassword">Forget Password?</Link>
-              </Form.Item> */}
+              </Form.Item> 
             </FormItemFlex>
 
             <Form.Item>
@@ -202,14 +202,6 @@ const Registeration = () => {
                 Sign Up
               </Button>
             </Form.Item>
-
-            {/* <Divider plain>Or</Divider>
-
-            <Form.Item>
-              <Button block icon={<GoogleOutlined />}>
-                Sign up with Google
-              </Button>
-            </Form.Item> */}
           </Form>
         </FormWrapper>
       </FormContainer>
